@@ -23,6 +23,7 @@ class Location {
     y: number;
 }
 
+
 //DEBUG: TODO: can be modified to take custom sizes in the future
 enum GameDifficulty {
     Easy,   // Mines x 0.1
@@ -38,7 +39,7 @@ class Minesweeper {
     columns: number;
 
 
-    squares: Array<Square>;
+    squares: Array<Array<Square>>;
 
     //In order to populate the mines evenly, we have to give the first mine a random position, then the next one that isn't filled,
     //etc. So we have to keep a list of the remaining bombs rather than only containing their count
@@ -61,10 +62,12 @@ class Minesweeper {
         this.rows = settings.rows;
         this.columns = settings.columns;
 
-        this.squares = [];
+        this.squares = [][];
         this.frontier = [];
 
-        for ( let row = 0; row <= this.rows; row++)
+        for ( let row = 0; row <= this.rows; row++) {
+            this.squares.append([]);
+        }
 
     }
 
