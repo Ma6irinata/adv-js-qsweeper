@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 //test to see how two-dimensional arrays in JS can be appended
 
 
+=======
+//test to see how two-dimensional arrays in JS can be appended
+
+
+>>>>>>> d0ae080a3edbf4cb51c618f3291e06ee1f895986
