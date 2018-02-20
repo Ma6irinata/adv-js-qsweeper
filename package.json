@@ -1,24 +1,23 @@
 {
-  "name": "adv-js-qsweeper",
+  "name": "sweeper",
   "version": "1.0.0",
-  "description": "Resources used:",
-  "main": "index.js",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "typescript": "^2.7.1"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ma6irinata/adv-js-qsweeper.git"
+    "url": "https://github.com/Ma6irinata/adv-js-qsweeper/tree/master/Sweeper"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ma6irinata/adv-js-qsweeper/issues"
-  },
-  "homepage": "https://github.com/Ma6irinata/adv-js-qsweeper#readme"
+  "devDependencies": {
+    "browserify": "^16.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.1",
+    "tsify": "^3.0.4",
+    "typescript": "^2.7.2",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
