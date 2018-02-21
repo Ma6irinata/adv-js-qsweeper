@@ -1,0 +1,37 @@
+.size-ctrl {
+    width: 1em;
+    height: 1em;
+    padding: .25em;
+    font-weight: 900;
+    line-height: 1.17;
+}
+
+.ctrl {
+    color: black;
+    display: inline-block;
+    padding: .25em .75em;
+    margin: .25em .75em;
+    box-shadow: 1px 1px 3px black;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.ellipse {
+    border-radius: 50%;
+    color: black;
+}
+
+.info-label {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 2em;
+    padding: .25em .75em;
+    border: solid 1px silver;
+    color: black;
+}
+
+.rounded-medium {
+    border-radius: .5em;
+}
